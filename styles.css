@@ -16,7 +16,7 @@ img {
   position: fixed;
   width: 798px;
   height: 359px;
-  left: 523px;
+  left: 600px;
   top: 341px;
 
   background-color: #ffffff;
@@ -29,6 +29,7 @@ img {
 
 .quote {
   text-align: left;
+  vertical-align: bottom;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -36,6 +37,7 @@ img {
   line-height: 84px;
 }
 .name {
+  vertical-align: baseline;
   text-align: right;
   font-family: Roboto;
   font-style: normal;
@@ -46,9 +48,4 @@ img {
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
 }
