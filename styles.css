@@ -3,7 +3,7 @@ body {
   background: #eec666;
   text-align: center;
 }
-img {
+.Tree {
   position: fixed;
   width: 351px;
   height: 375px;
@@ -30,27 +30,6 @@ img {
   text-align: center;
   font-family: Roboto;
 }
-/*
-.quote {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  height: 275px;
-  text-align: center;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size-adjust: 0.74;
-}
-.name {
-  height: 66%;
-  text-align: right;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size-adjust: 0.74;
-}
-*/
 
 .text {
   margin: 0;
@@ -62,4 +41,20 @@ img {
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.arrow_back {
+  position: fixed;
+  width: 57.9px;
+  height: 100.59px;
+  top: 470px;
+  left: 525px;
+}
+
+.arrow_forward {
+  position: fixed;
+  width: 57.9px;
+  height: 100.59px;
+  top: 470px;
+  left: 1445px;
 }
