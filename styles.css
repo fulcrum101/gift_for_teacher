@@ -3,3 +3,10 @@ body {
   background: #eec666;
   text-align: center;
 }
+img {
+  position: absolute;
+  width: 351px;
+  height: 375px;
+  left: 57px;
+  top: 325px;
+}
