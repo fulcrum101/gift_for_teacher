@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 img {
-  position: absolute;
+  position: fixed;
   width: 351px;
   height: 375px;
   left: 57px;
@@ -13,7 +13,7 @@ img {
 
 .card {
   /* Add shadows to create the "card" effect */
-  position: absolute;
+  position: fixed;
   width: 798px;
   height: 359px;
   left: 523px;
