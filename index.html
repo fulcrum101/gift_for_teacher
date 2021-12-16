@@ -4,16 +4,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dāvana no 10.E klases</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+    <script src="script.js"></script>
     <h1>Dāvana Jums no 10.E klases!</h1>
     <img src="PinClipart.com_clipart-boe-narodzenie_5789613.png" alt="Eglīte" class=Tree>
-    <img class=arrow_back src="Vector.png" alt="Back">
-    <img class=arrow_forward src="Vector_2.png" alt="Forward">
+    <input type="image" src="Vector_2.png" class=arrow_forward onclick="moveForward()" value = "Display">
+    <input type="image" src="Vector.png" class=arrow_back onclick="moveBack()" value = "Display">
+
     <div class="card">
         <div class="text">
-            <h2>Vēlos pateikt paldies par šiem 4 mēnešiem prieka, tuvības, labvēlības un citām izcilām iezīmēm, kuras Jums piemīt! Paldies Jums liels!</h2>
-            <p>Jānis Helvijs J.</p>
+            <h2 id="Quote"></h2>
+            <p id="Name"></p>
         </div>
     </div>
     
