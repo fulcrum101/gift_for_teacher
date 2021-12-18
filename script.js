@@ -1,5 +1,5 @@
 var v = [["Roberts L.", "Vēlu Jums priecīgus un baltus Ziemassvētkus!"],
-        ["Markuss Zvirbulis","Lai ir pacietības visu dienu čakarēties ar skolas datoriem un skolēniem."],
+        ["Markuss Z.","Lai ir pacietības visu dienu čakarēties ar skolas datoriem un skolēniem."],
         ["Jānis Helvijs J.","Vēlos pateikt paldies par šiem 4 mēnešiem prieka, tuvības, labvēlības un citām izcilām iezīmēm, kuras Jums piemīt! Paldies Jums liels!"],
         ["Maksis G.","Sievietes ir kā vīns - jo vecāks, jo labāks. Novēlu kļūt vecākai un nebaidīties no tā!"],
         ["Ernests K.", "Priecīgus Ziemassvētkus un, lai jaunais gads, atnes prieku un laimi."],
