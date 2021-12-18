@@ -4,7 +4,11 @@ var v = [["Roberts L.", "Vēlu Jums priecīgus un baltus Ziemassvētkus!"],
         ["Maksis G.","Sievietes ir kā vīns - jo vecāks, jo labāks. Novēlu kļūt vecākai un nebaidīties no tā!"],
         ["Ernests K.", "Priecīgus Ziemassvētkus un, lai jaunais gads, atnes prieku un laimi."],
         ["Veronika L.", "Jaukus Ziemassvētkus un lai visas programmas strādātu no pirmas reizes!"],
-        ["Kārlis Z.", "Lai viss izdodas!"]];
+        ["Kārlis Z.", "Lai viss izdodas!"],
+        ["Elza P.", "Novēlu, lai silti šie svētki un izdodas pavadīt laiku ar savu ģimeni!"],
+        ["Agnese K.", "Lai Jums jauki svētki un skaists gada noslēgums!"],
+        ["Nils Ž.", "Lai gaišums tas, kas sveču liesmās plīvo, Iet katrai svētku dienai līdz! Sirds gaišus un Priecīgus šos svētkus!"],
+        ["Kristers M.", "Priecīgus un gaišus Ziemassvētkus un Jauno gadu, lai piepildās visas velmes!"]];
 var i = 0;
 
 
