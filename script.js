@@ -6,9 +6,9 @@ var v = [["Roberts L.", "Vēlu Jums priecīgus un baltus Ziemassvētkus!"],
         ["Veronika L.", "Jaukus Ziemassvētkus un lai visas programmas strādātu no pirmas reizes!"],
         ["Kārlis Z.", "Lai viss izdodas!"],
         ["Elza P.", "Novēlu, lai silti šie svētki un izdodas pavadīt laiku ar savu ģimeni!"],
-        ["Agnese K.", "Lai Jums jauki svētki un skaists gada noslēgums!"],
+        ["Agnese K", "Lai Jums jauki svētki un skaists gada noslēgums!"],
         ["Nils Ž.", "Lai gaišums tas, kas sveču liesmās plīvo, Iet katrai svētku dienai līdz! Sirds gaišus un Priecīgus šos svētkus!"],
-        ["Kristers M.", "Priecīgus un gaišus Ziemassvētkus un Jauno gadu, lai piepildās visas velmes!"]];
+        ["Kristers M.", "Priecīgus un gaišus Ziemassvētkus un Jauno gadu, lai piepildās visas vēlmes!"]];
 var i = 0;
 
 
@@ -36,5 +36,5 @@ function moveBack(){
 
 function startGame()
 {
-    document.getElementById("Name").innerHTML = "Spēle is sākusies";
+    window.location.href = "game.html";
 }
