@@ -16,23 +16,6 @@ function UpdateText(){
     document.getElementById("Quote").innerHTML = v[i][1];
     document.getElementById("Name").innerHTML = v[i][0];
 };
-function moveForward(){
-    if (i == v.length-1){
-        i=0;
-    } else {
-        i=i+1;
-    }
-    UpdateText();
-};
-
-function moveBack(){
-    if (i == 0){
-        i=v.length-1;
-    } else {
-        i=i-1;
-    }
-    UpdateText();
-};
 
 function startGame()
 {
