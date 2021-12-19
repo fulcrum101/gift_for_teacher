@@ -28,7 +28,7 @@ const Char = (props) => {
   };
   
   const App = () => {
-    const [ answer, setAnswer ] = React.useState('Поле Чудес');
+    const [ answer, setAnswer ] = React.useState('Vai Jums patīk kafija?');
   
     return (
       <div className="App">
