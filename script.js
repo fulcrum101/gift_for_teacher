@@ -11,7 +11,11 @@ var v = [["Roberts L.", "Vēlu Jums priecīgus un baltus Ziemassvētkus!"],
         ["Kristers M.", "Priecīgus un gaišus Ziemassvētkus un Jauno gadu, lai piepildās visas vēlmes!"],
         ["Dāvis M.", "Novēlu jums gaišus un priekpilnus Ziemassvētkus!"],
         ["Kristaps T.","Priecīgus Ziemassvētkus un vēlmi nākamgad paveikt vēl vairāk!"],
-        ["Raimonds V.","Novēlu Jums priecīgus Ziemassvētkus, veiksmīgu nākamo gadu un lai Rīgas domes serveri nākamgad strādā bez problēmām!"]];
+        ["Raimonds V.","Novēlu Jums priecīgus Ziemassvētkus, veiksmīgu nākamo gadu un lai Rīgas domes serveri nākamgad strādā bez problēmām!"],
+        ["Kristaps Andris B.", "Lai jums jauki ziemassvētki!"],
+        ["Lenija L.", "priecīgus un gaišus svētkus!! <3"],
+        ["Gabriella K.", "Novēlu Jums 2022.gadu aizpildīt ar neaizmirstamiem notikumiem un atmiņām :)"],
+        ["Gustavs Z.", "Paldies par Jūsu ikdienišķo siltumu un pozitīvo enerģiju, tā tik turpināt! Priecīgus Ziemassvētkus un laimīgu Jauno gadu!"]];
 var i = 0;
 
 
