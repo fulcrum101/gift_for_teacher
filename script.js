@@ -18,12 +18,12 @@ var i = 0;
 function UpdateText(){
     document.getElementById("Quote").innerHTML = v[i][1];
     document.getElementById("Name").innerHTML = v[i][0];
-};
+}
 
 function startGame()
 {
     window.location.href = "game.html";
-};
+}
 
 function moveForward(){
     if (i == v.length-1){
@@ -32,7 +32,7 @@ function moveForward(){
         i = i + 1;
     }
     UpdateText();
-};
+}
 
 function moveBack(){
     if (i==0){
@@ -41,4 +41,4 @@ function moveBack(){
         i = i - 1;
     }
     UpdateText();
-};
+}
