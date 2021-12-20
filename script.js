@@ -8,7 +8,8 @@ var v = [["Roberts L.", "Vēlu Jums priecīgus un baltus Ziemassvētkus!"],
         ["Elza P.", "Novēlu, lai silti šie svētki un izdodas pavadīt laiku ar savu ģimeni!"],
         ["Agnese K", "Lai Jums jauki svētki un skaists gada noslēgums!"],
         ["Nils Ž.", "Lai gaišums tas, kas sveču liesmās plīvo, Iet katrai svētku dienai līdz! Sirds gaišus un Priecīgus šos svētkus!"],
-        ["Kristers M.", "Priecīgus un gaišus Ziemassvētkus un Jauno gadu, lai piepildās visas vēlmes!"]];
+        ["Kristers M.", "Priecīgus un gaišus Ziemassvētkus un Jauno gadu, lai piepildās visas vēlmes!"],
+        ["Dāvis M.", "Novēlu jums gaišus un priekpilnus Ziemassvētkus!"]];
 var i = 0;
 
 
