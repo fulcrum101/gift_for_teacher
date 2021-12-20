@@ -1,61 +1,50 @@
-const Char = props => {
-  const [open, setOpen] = React.useState(false);
-  const cardClassName = 'Card' + (open ? ' Card--open' : '');
+let canvas = document.getElementById("canvas"),
+  context = canvas.getContext("2d"),
+  drops = [],
+  text = [],
+  font_size = 12;
 
-  return /*#__PURE__*/(
-    React.createElement("div", {
-      className: 'Char' }, /*#__PURE__*/
+canvas.height = window.innerHeight;
+canvas.width = window.innerWidth / 1.2;
+columns = canvas.width / font_size;
 
-    React.createElement("div", {
-      className: 'Scene' }, /*#__PURE__*/
+context.translate(canvas.width, 0);
+context.scale(-1, 1);
 
-    React.createElement("div", {
-      className: cardClassName,
-      onClick: () => setOpen(!open) }, /*#__PURE__*/
+// hiragana characters.
+let chars = "0 1".split(
+  ""
+);
 
-    React.createElement("div", {
-      className: 'Card-face Card-face--front' }), /*#__PURE__*/
+for (let i = 0; i < columns; i++) drops[i] = Math.random() * 43 - 43;
 
-    React.createElement("div", {
-      className: 'Card-face Card-face--back' },
+function draw() {
+  // Background with 0.1 opacity.
+  context.font = font_size + "px 'Sawarabi Mincho', 'Roboto Mono'";
+  context.fillStyle = "rgba(0, 0, 0, 0.07)";
+  context.fillRect(0, 0, canvas.width, canvas.height);
 
-    props.char.toUpperCase())))));
+  //Set the previous line to neon.
+  context.fillStyle = "#00ffff";
+  for (let i = 0; i < drops.length; i++) {
+    context.fillText(text[i], i * font_size, drops[i] * font_size);
+  }
 
+  // Generate new characters.
+  context.fillStyle = "#cc00ff";
+  for (let i = 0; i < drops.length; i++) {
+    drops[i]++;
 
+    // Random character to print.
+    text[i] = chars[Math.floor(Math.random() * chars.length)];
 
+    // Parameters - text, x-pos, y-pos.
+    context.fillText(text[i], i * font_size, drops[i] * font_size);
 
+    // Sending the drop to the top randomly, after it has crossed the screen.
+    if (drops[i] * font_size > canvas.height)
+      drops[i] = Math.random() * 100 - 43;
+  }
+}
 
-};
-
-const App = () => {
-  const [answer, setAnswer] = React.useState('Поле Чудес');
-
-  return /*#__PURE__*/(
-    React.createElement("div", { className: "App" }, /*#__PURE__*/
-    React.createElement("div", {
-      className: 'Input' }, /*#__PURE__*/
-
-    React.createElement("input", {
-      onChange: e => setAnswer(e.target.value),
-      value: answer })), /*#__PURE__*/
-
-
-    React.createElement("div", {
-      className: 'Grid' },
-
-    answer.split('').map((char, i) =>
-    char !== ' ' ? /*#__PURE__*/
-    React.createElement(Char, {
-      char: char,
-      key: `${i}${char}` }) : /*#__PURE__*/
-
-    React.createElement("div", {
-      key: i })))));
-
-
-
-
-
-};
-
-ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById('root'));
+setInterval(draw, 43);
