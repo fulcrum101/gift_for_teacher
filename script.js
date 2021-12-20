@@ -9,7 +9,9 @@ var v = [["Roberts L.", "Vēlu Jums priecīgus un baltus Ziemassvētkus!"],
         ["Agnese K", "Lai Jums jauki svētki un skaists gada noslēgums!"],
         ["Nils Ž.", "Lai gaišums tas, kas sveču liesmās plīvo, Iet katrai svētku dienai līdz! Sirds gaišus un Priecīgus šos svētkus!"],
         ["Kristers M.", "Priecīgus un gaišus Ziemassvētkus un Jauno gadu, lai piepildās visas vēlmes!"],
-        ["Dāvis M.", "Novēlu jums gaišus un priekpilnus Ziemassvētkus!"]];
+        ["Dāvis M.", "Novēlu jums gaišus un priekpilnus Ziemassvētkus!"],
+        ["Kristaps T.","Priecīgus Ziemassvētkus un vēlmi nākamgad paveikt vēl vairāk!"],
+        ["Raimonds V.","Novēlu Jums priecīgus Ziemassvētkus, veiksmīgu nākamo gadu un lai Rīgas domes serveri nākamgad strādā bez problēmām!"]];
 var i = 0;
 
 
@@ -34,7 +36,7 @@ function moveForward(){
 
 function moveBack(){
     if (i==0){
-        i == v.length-1
+        i = v.length-1
     } else {
         i = i - 1;
     }
