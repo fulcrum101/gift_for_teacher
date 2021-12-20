@@ -30,9 +30,7 @@ function displayWord() {
   `;
     const innerWord = wordEl.innerText.replace(/[ \n]/g, '');
 	if (innerWord == "VAIJUMSPATIKKAFIJA?") {
-		window.alert('Congratulations! You won! 😃');
-		finalMessageRevealWord.innerText = '';
-		popup.style.display = 'flex';
+		window.open("https://youtu.be/LE9Q4JN-Yek");
 	}
 }
 
