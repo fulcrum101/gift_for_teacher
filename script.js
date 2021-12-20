@@ -36,7 +36,7 @@ function moveForward(){
 
 function moveBack(){
     if (i==0){
-        i = v.length-1
+        i = v.length-1;
     } else {
         i = i - 1;
     }
